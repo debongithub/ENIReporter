@@ -7,11 +7,11 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: s3://mytest2322/e382216c65415f264826a88ea7ef1885
+      CodeUri: s3://xxxxxxxxx/e382216c65415f264826a88ea7ef1885
       Description: ''
       MemorySize: 512
       Timeout: 63
-      Role: arn:aws:iam::218067593328:role/lambda_basic_execution
+      Role: arn:aws:iam::xxxxxxxx:role/lambda_basic_execution
       Events:
         Api1:
           Type: Api
